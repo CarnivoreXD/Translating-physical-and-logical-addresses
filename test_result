@@ -1,0 +1,73 @@
+Page Table Entries: 8192 24576 32768 -1 28672 4096 16384 20480 
+Page Size = 4096
+
+******************************************
+
+Translating from Logical to Physical Address
+
+Logical Address: 1108
+PageTableIndex = 0  |  Offset = 1108
+Corresponding Physical Address = 9300
+
+Logical Address: 18224
+PageTableIndex = 4  |  Offset = 1840
+Corresponding Physical Address = 30512
+
+Logical Address: 25576
+PageTableIndex = 6  |  Offset = 1000
+Corresponding Physical Address = 17384
+
+Logical Address: 13200
+PageTableIndex = 3  |  Page Fault: Corresponding Physical Address Not in Memory
+
+Logical Address: 30123
+PageTableIndex = 7  |  Offset = 1451
+Corresponding Physical Address = 21931
+
+Logical Address: 21808
+PageTableIndex = 5  |  Offset = 1328
+Corresponding Physical Address = 5424
+
+Logical Address: 9876
+PageTableIndex = 2  |  Offset = 1684
+Corresponding Physical Address = 34452
+
+Logical Address: 18567
+PageTableIndex = 4  |  Offset = 2183
+Corresponding Physical Address = 30855
+
+******************************************
+
+Translating from Physical to Logical Address
+Physical Address: 8581
+PageFrame = 2 | PageTableIndex =  0  |  LogicalPage = 0 |  Offset = 389
+Corresponding Logical Address is = 389
+
+Physical Address: 26801
+PageFrame = 6 | PageTableIndex =  1  |  LogicalPage = 4096 |  Offset = 2225
+Corresponding Logical Address is = 6321
+
+Physical Address: 22372
+PageFrame = 5 | PageTableIndex =  7  |  LogicalPage = 28672 |  Offset = 1892
+Corresponding Logical Address is = 30564
+
+Physical Address: 22372
+PageFrame = 5 | PageTableIndex =  7  |  LogicalPage = 28672 |  Offset = 1892
+Corresponding Logical Address is = 30564
+
+Physical Address: 4628
+PageFrame = 1 | PageTableIndex =  5  |  LogicalPage = 20480 |  Offset = 532
+Corresponding Logical Address is = 21012
+
+Physical Address: 30652
+PageFrame = 7 | PageTableIndex =  4  |  LogicalPage = 16384 |  Offset = 1980
+Corresponding Logical Address is = 18364
+
+Physical Address: 35856
+PageFrame = 8 | PageTableIndex =  2  |  LogicalPage = 8192 |  Offset = 3088
+Corresponding Logical Address is = 11280
+
+Physical Address: 16744
+PageFrame = 4 | PageTableIndex =  6  |  LogicalPage = 24576 |  Offset = 360
+Corresponding Logical Address is = 24936
+

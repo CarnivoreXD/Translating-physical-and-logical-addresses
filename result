@@ -1,0 +1,73 @@
+Page Table Entries: 8192 24576 32768 -1 28672 4096 16384 20480 
+Page Size = 4096
+
+******************************************
+
+Translating from Logical to Physical Address
+
+Logical Address: 389
+PageTableIndex = 0   |   Offset: 389
+Corresponding Physical Address: 8581
+
+Logical Address: 6321
+PageTableIndex = 1   |   Offset: 2225
+Corresponding Physical Address: 26801
+
+Logical Address: 30564
+PageTableIndex = 7   |   Offset: 1892
+Corresponding Physical Address: 22372
+
+Logical Address: 14700
+PageTableIndex = 3   |  Page Fault: Corresponding Physical Address Not in Memory
+
+Logical Address: 21012
+PageTableIndex = 5   |   Offset: 532
+Corresponding Physical Address: 4628
+
+Logical Address: 18364
+PageTableIndex = 4   |   Offset: 1980
+Corresponding Physical Address: 30652
+
+Logical Address: 11280
+PageTableIndex = 2   |   Offset: 3088
+Corresponding Physical Address: 35856
+
+Logical Address: 24936
+PageTableIndex = 6   |   Offset: 360
+Corresponding Physical Address: 16744
+
+
+******************************************
+
+Translating from Physical to Logical Address
+
+Physical Address: 9300
+PageFrame = 2   |   PageTableIndex = 0   |   LogicalPage = 0 |  Offset = 1108
+Corresponding Logical Address: 1108
+
+Physical Address: 30512
+PageFrame = 7   |   PageTableIndex = 4   |   LogicalPage = 16384 |  Offset = 1840
+Corresponding Logical Address: 18224
+
+Physical Address: 17384
+PageFrame = 4   |   PageTableIndex = 6   |   LogicalPage = 24576 |  Offset = 1000
+Corresponding Logical Address: 25576
+
+Physical Address: 3640
+PageFrame = 0   |   PageTableIndex = Not found   |   Page Fault: Corresponding Physical Address Not in Memory
+
+Physical Address: 23758
+PageFrame = 5   |   PageTableIndex = 7   |   LogicalPage = 28672 |  Offset = 3278
+Corresponding Logical Address: 31950
+
+Physical Address: 4424
+PageFrame = 1   |   PageTableIndex = 5   |   LogicalPage = 20480 |  Offset = 328
+Corresponding Logical Address: 20808
+
+Physical Address: 35320
+PageFrame = 8   |   PageTableIndex = 2   |   LogicalPage = 8192 |  Offset = 2552
+Corresponding Logical Address: 10744
+
+Physical Address: 14212
+PageFrame = 3   |   PageTableIndex = Not found   |   Page Fault: Corresponding Physical Address Not in Memory
+
